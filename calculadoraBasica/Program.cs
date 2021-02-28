@@ -13,8 +13,14 @@ namespace calculadoraBasica
                           "\nDigite la opcioncion a ejecutar : ");
 
 
-
             Console.ReadLine();
+        }
+
+        public static double suma(double pNumb1,double pNumb2) {
+
+            double sum = pNumb1 + pNumb2;
+
+            return sum;
         }
     }
 }
