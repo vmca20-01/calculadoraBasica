@@ -22,5 +22,13 @@ namespace calculadoraBasica
 
             return sum;
         }
+
+        public static double resta(double pNumb1, double pNumb2)
+        {
+
+            double rest = pNumb1 - pNumb2;
+
+            return rest;
+        }
     }
 }
